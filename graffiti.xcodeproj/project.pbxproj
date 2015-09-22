@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10458D801BB21AD80099FD13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10458D7F1BB21AD80099FD13 /* AppDelegate.swift */; };
+		10458D821BB21AD80099FD13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10458D811BB21AD80099FD13 /* ViewController.swift */; };
+		10458D851BB21AD80099FD13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10458D831BB21AD80099FD13 /* Main.storyboard */; };
+		10458D871BB21AD80099FD13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10458D861BB21AD80099FD13 /* Assets.xcassets */; };
+		10458D8A1BB21AD80099FD13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10458D881BB21AD80099FD13 /* LaunchScreen.storyboard */; };
+		10458D951BB21AD80099FD13 /* graffitiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10458D941BB21AD80099FD13 /* graffitiTests.swift */; };
+		10458DA01BB21AD80099FD13 /* graffitiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10458D9F1BB21AD80099FD13 /* graffitiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10458D911BB21AD80099FD13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10458D741BB21AD80099FD13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10458D7B1BB21AD80099FD13;
+			remoteInfo = graffiti;
+		};
+		10458D9C1BB21AD80099FD13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10458D741BB21AD80099FD13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10458D7B1BB21AD80099FD13;
+			remoteInfo = graffiti;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10458D7C1BB21AD80099FD13 /* graffiti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = graffiti.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10458D7F1BB21AD80099FD13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10458D811BB21AD80099FD13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10458D841BB21AD80099FD13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10458D861BB21AD80099FD13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10458D891BB21AD80099FD13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10458D8B1BB21AD80099FD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10458D901BB21AD80099FD13 /* graffitiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = graffitiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10458D941BB21AD80099FD13 /* graffitiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graffitiTests.swift; sourceTree = "<group>"; };
+		10458D961BB21AD80099FD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10458D9B1BB21AD80099FD13 /* graffitiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = graffitiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10458D9F1BB21AD80099FD13 /* graffitiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graffitiUITests.swift; sourceTree = "<group>"; };
+		10458DA11BB21AD80099FD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10458D791BB21AD80099FD13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10458D8D1BB21AD80099FD13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10458D981BB21AD80099FD13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10458D731BB21AD80099FD13 = {
+			isa = PBXGroup;
+			children = (
+				10458D7E1BB21AD80099FD13 /* graffiti */,
+				10458D931BB21AD80099FD13 /* graffitiTests */,
+				10458D9E1BB21AD80099FD13 /* graffitiUITests */,
+				10458D7D1BB21AD80099FD13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10458D7D1BB21AD80099FD13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10458D7C1BB21AD80099FD13 /* graffiti.app */,
+				10458D901BB21AD80099FD13 /* graffitiTests.xctest */,
+				10458D9B1BB21AD80099FD13 /* graffitiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10458D7E1BB21AD80099FD13 /* graffiti */ = {
+			isa = PBXGroup;
+			children = (
+				10458D7F1BB21AD80099FD13 /* AppDelegate.swift */,
+				10458D811BB21AD80099FD13 /* ViewController.swift */,
+				10458D831BB21AD80099FD13 /* Main.storyboard */,
+				10458D861BB21AD80099FD13 /* Assets.xcassets */,
+				10458D881BB21AD80099FD13 /* LaunchScreen.storyboard */,
+				10458D8B1BB21AD80099FD13 /* Info.plist */,
+			);
+			path = graffiti;
+			sourceTree = "<group>";
+		};
+		10458D931BB21AD80099FD13 /* graffitiTests */ = {
+			isa = PBXGroup;
+			children = (
+				10458D941BB21AD80099FD13 /* graffitiTests.swift */,
+				10458D961BB21AD80099FD13 /* Info.plist */,
+			);
+			path = graffitiTests;
+			sourceTree = "<group>";
+		};
+		10458D9E1BB21AD80099FD13 /* graffitiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10458D9F1BB21AD80099FD13 /* graffitiUITests.swift */,
+				10458DA11BB21AD80099FD13 /* Info.plist */,
+			);
+			path = graffitiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10458D7B1BB21AD80099FD13 /* graffiti */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10458DA41BB21AD80099FD13 /* Build configuration list for PBXNativeTarget "graffiti" */;
+			buildPhases = (
+				10458D781BB21AD80099FD13 /* Sources */,
+				10458D791BB21AD80099FD13 /* Frameworks */,
+				10458D7A1BB21AD80099FD13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = graffiti;
+			productName = graffiti;
+			productReference = 10458D7C1BB21AD80099FD13 /* graffiti.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10458D8F1BB21AD80099FD13 /* graffitiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10458DA71BB21AD80099FD13 /* Build configuration list for PBXNativeTarget "graffitiTests" */;
+			buildPhases = (
+				10458D8C1BB21AD80099FD13 /* Sources */,
+				10458D8D1BB21AD80099FD13 /* Frameworks */,
+				10458D8E1BB21AD80099FD13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10458D921BB21AD80099FD13 /* PBXTargetDependency */,
+			);
+			name = graffitiTests;
+			productName = graffitiTests;
+			productReference = 10458D901BB21AD80099FD13 /* graffitiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10458D9A1BB21AD80099FD13 /* graffitiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10458DAA1BB21AD80099FD13 /* Build configuration list for PBXNativeTarget "graffitiUITests" */;
+			buildPhases = (
+				10458D971BB21AD80099FD13 /* Sources */,
+				10458D981BB21AD80099FD13 /* Frameworks */,
+				10458D991BB21AD80099FD13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10458D9D1BB21AD80099FD13 /* PBXTargetDependency */,
+			);
+			name = graffitiUITests;
+			productName = graffitiUITests;
+			productReference = 10458D9B1BB21AD80099FD13 /* graffitiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10458D741BB21AD80099FD13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Dijon;
+				TargetAttributes = {
+					10458D7B1BB21AD80099FD13 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					10458D8F1BB21AD80099FD13 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 10458D7B1BB21AD80099FD13;
+					};
+					10458D9A1BB21AD80099FD13 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 10458D7B1BB21AD80099FD13;
+					};
+				};
+			};
+			buildConfigurationList = 10458D771BB21AD80099FD13 /* Build configuration list for PBXProject "graffiti" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10458D731BB21AD80099FD13;
+			productRefGroup = 10458D7D1BB21AD80099FD13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10458D7B1BB21AD80099FD13 /* graffiti */,
+				10458D8F1BB21AD80099FD13 /* graffitiTests */,
+				10458D9A1BB21AD80099FD13 /* graffitiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10458D7A1BB21AD80099FD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10458D8A1BB21AD80099FD13 /* LaunchScreen.storyboard in Resources */,
+				10458D871BB21AD80099FD13 /* Assets.xcassets in Resources */,
+				10458D851BB21AD80099FD13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10458D8E1BB21AD80099FD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10458D991BB21AD80099FD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10458D781BB21AD80099FD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10458D821BB21AD80099FD13 /* ViewController.swift in Sources */,
+				10458D801BB21AD80099FD13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10458D8C1BB21AD80099FD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10458D951BB21AD80099FD13 /* graffitiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10458D971BB21AD80099FD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10458DA01BB21AD80099FD13 /* graffitiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10458D921BB21AD80099FD13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10458D7B1BB21AD80099FD13 /* graffiti */;
+			targetProxy = 10458D911BB21AD80099FD13 /* PBXContainerItemProxy */;
+		};
+		10458D9D1BB21AD80099FD13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10458D7B1BB21AD80099FD13 /* graffiti */;
+			targetProxy = 10458D9C1BB21AD80099FD13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10458D831BB21AD80099FD13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10458D841BB21AD80099FD13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10458D881BB21AD80099FD13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10458D891BB21AD80099FD13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10458DA21BB21AD80099FD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10458DA31BB21AD80099FD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10458DA51BB21AD80099FD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = graffiti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dijon.graffiti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10458DA61BB21AD80099FD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = graffiti/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dijon.graffiti;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10458DA81BB21AD80099FD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = graffitiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dijon.graffitiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/graffiti.app/graffiti";
+			};
+			name = Debug;
+		};
+		10458DA91BB21AD80099FD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = graffitiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dijon.graffitiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/graffiti.app/graffiti";
+			};
+			name = Release;
+		};
+		10458DAB1BB21AD80099FD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = graffitiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dijon.graffitiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = graffiti;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		10458DAC1BB21AD80099FD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = graffitiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dijon.graffitiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = graffiti;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10458D771BB21AD80099FD13 /* Build configuration list for PBXProject "graffiti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10458DA21BB21AD80099FD13 /* Debug */,
+				10458DA31BB21AD80099FD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10458DA41BB21AD80099FD13 /* Build configuration list for PBXNativeTarget "graffiti" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10458DA51BB21AD80099FD13 /* Debug */,
+				10458DA61BB21AD80099FD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10458DA71BB21AD80099FD13 /* Build configuration list for PBXNativeTarget "graffitiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10458DA81BB21AD80099FD13 /* Debug */,
+				10458DA91BB21AD80099FD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10458DAA1BB21AD80099FD13 /* Build configuration list for PBXNativeTarget "graffitiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10458DAB1BB21AD80099FD13 /* Debug */,
+				10458DAC1BB21AD80099FD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10458D741BB21AD80099FD13 /* Project object */;
+}
